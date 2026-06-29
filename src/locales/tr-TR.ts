@@ -8,9 +8,9 @@ const localeData: LocaleData = {
   previewHelp:
     "Sıkıştırma etkisini karşılaştırmak için bölme çizgisini sürükleyin: soldaki orijinal görüntü, sağdaki sıkıştırılmış görüntü",
   uploadCard: {
-    title: "Dosyaları buradan seçin, dosya ve klasör sürüklemeyi destekler",
-    subTitle:
-      "Açık kaynaklı toplu resim sıkıştırma aracı, %s formatını destekler",
+    title: "Resimlerinizi buraya bırakın",
+    subTitle: "Desteklenen formatlar: %s",
+    pasteHint: "💡 Ctrl+V ile yapıştırın veya resimleri sürükleyin",
   },
   listAction: {
     batchAppend: "Toplu ekle",
@@ -68,6 +68,18 @@ const localeData: LocaleData = {
     outputFormatPlaceholder: "Çıktı formatını seçin",
     transparentFillDesc: "Şeffaflık rengini seçin",
     cropCompareWarning: "Kırpma modu karşılaştırma önizlemesini desteklemiyor",
+    presetCrop: "Preset Crop (Paper)",
+    presetPaperSize: "Paper Size",
+    presetOrientation: "Orientation",
+    presetPortrait: "Portrait",
+    presetLandscape: "Landscape",
+    presetRefWidth: "Based on width",
+    presetRefHeight: "Based on height",
+    presetCropPx: "Crop per side (px)",
+    presetOffsetPx: "Offset (px)",
+    presetCropWarning: "Image's {axis} is insufficient for {paper} ratio",
+    presetSwitchRef: "Switch reference edge",
+    presetCancelCrop: "Cancel preset crop",
   },
   error404: {
     backHome: "Ana sayfaya dön",

@@ -10,6 +10,7 @@ const localeData: LocaleData = {
   uploadCard: {
     title: "Select files here, support dragging files and folders",
     subTitle: "Open source batch image compression tool, supports %s format",
+    pasteHint: "💡 Tip: You can also paste image with Ctrl+V (Cmd+V), or drag and drop images here",
   },
   listAction: {
     batchAppend: "Batch append",
@@ -66,6 +67,18 @@ const localeData: LocaleData = {
     outputFormatPlaceholder: "Select output image format",
     transparentFillDesc: "Choose a transparent fill color",
     cropCompareWarning: "Crop mode does not support comparison preview",
+    presetCrop: "Preset Crop (Paper)",
+    presetPaperSize: "Paper Size",
+    presetOrientation: "Orientation",
+    presetPortrait: "Portrait",
+    presetLandscape: "Landscape",
+    presetRefWidth: "Based on width",
+    presetRefHeight: "Based on height",
+    presetCropPx: "Crop per side (px)",
+    presetOffsetPx: "Offset (px)",
+    presetCropWarning: "Image's {axis} is insufficient for {paper} ratio",
+    presetSwitchRef: "Switch reference edge",
+    presetCancelCrop: "Cancel preset crop",
   },
   error404: {
     backHome: "Back to home",

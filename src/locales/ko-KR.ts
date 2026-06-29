@@ -10,8 +10,9 @@ const localeData: LocaleData = {
   previewHelp:
     "압축 효과를 비교하려면 구분선을 드래그하세요. 왼쪽은 원본 이미지, 오른쪽은 압축된 이미지입니다.",
   uploadCard: {
-    title: "여기에서 파일을 선택하고 파일 및 폴더 끌기를 지원합니다.",
-    subTitle: "오픈 소스 배치 이미지 압축 도구, %s 형식 지원",
+    title: "이미지 파일을 여기에 넣기",
+    subTitle: "지원 형식: %s",
+    pasteHint: "💡 Ctrl+V로 붙여넣기 또는 이미지를 끌어다 놓기",
   },
 
   listAction: {
@@ -69,6 +70,18 @@ const localeData: LocaleData = {
     outputFormatPlaceholder: "출력 이미지 형식 선택",
     transparentFillDesc: "투명한 채우기 색상 선택",
     cropCompareWarning: "자르기 모드는 비교 미리보기를 지원하지 않습니다.",
+    presetCrop: "Preset Crop (Paper)",
+    presetPaperSize: "Paper Size",
+    presetOrientation: "Orientation",
+    presetPortrait: "Portrait",
+    presetLandscape: "Landscape",
+    presetRefWidth: "Based on width",
+    presetRefHeight: "Based on height",
+    presetCropPx: "Crop per side (px)",
+    presetOffsetPx: "Offset (px)",
+    presetCropWarning: "Image's {axis} is insufficient for {paper} ratio",
+    presetSwitchRef: "Switch reference edge",
+    presetCancelCrop: "Cancel preset crop",
   },
   error404: {
     backHome: "홈 페이지로 돌아가기",

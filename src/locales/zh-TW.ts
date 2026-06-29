@@ -11,6 +11,7 @@ const localeData: LocaleData = {
   uploadCard: {
     title: "選取文件到這裡，支援拖曳文件和資料夾",
     subTitle: "開源的批量圖片壓縮工具，支援 %s 格式",
+    pasteHint: "💡 提示：您也可以複製圖片後按 Ctrl+V (Cmd+V) 貼上",
   },
   listAction: {
     batchAppend: "大量新增",
@@ -67,6 +68,18 @@ const localeData: LocaleData = {
     outputFormatPlaceholder: "選擇輸出圖片格式",
     transparentFillDesc: "選擇透明填充色",
     cropCompareWarning: "裁切模式不支援比較預覽",
+    presetCrop: "Preset Crop (Paper)",
+    presetPaperSize: "Paper Size",
+    presetOrientation: "Orientation",
+    presetPortrait: "Portrait",
+    presetLandscape: "Landscape",
+    presetRefWidth: "Based on width",
+    presetRefHeight: "Based on height",
+    presetCropPx: "Crop per side (px)",
+    presetOffsetPx: "Offset (px)",
+    presetCropWarning: "Image's {axis} is insufficient for {paper} ratio",
+    presetSwitchRef: "Switch reference edge",
+    presetCancelCrop: "Cancel preset crop",
   },
   error404: {
     backHome: "返回首頁",

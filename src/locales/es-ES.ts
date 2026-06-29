@@ -8,10 +8,9 @@ const localeData: LocaleData = {
   previewHelp:
     "Arrastra la línea divisoria para comparar el efecto de compresión: a la izquierda es la imagen original, a la derecha es la imagen comprimida",
   uploadCard: {
-    title:
-      "Selecciona tus archivos aquí, tambien puedes arrastrar archivos y carpetas",
-    subTitle:
-      "Herramienta de compresión de imágenes por lotes de código abierto, compatible con los formatos %s",
+    title: "Selecciona o arrastra tus imágenes aquí",
+    subTitle: "Formatos soportados: %s",
+    pasteHint: "💡 Pega con Ctrl+V o arrastra imágenes aquí",
   },
   listAction: {
     batchAppend: "Añadir imagenes",
@@ -72,6 +71,18 @@ const localeData: LocaleData = {
     transparentFillDesc: "Elige un color de relleno transparente",
     cropCompareWarning:
       "El modo de recorte no admite la vista previa de comparación",
+    presetCrop: "Preset Crop (Paper)",
+    presetPaperSize: "Paper Size",
+    presetOrientation: "Orientation",
+    presetPortrait: "Portrait",
+    presetLandscape: "Landscape",
+    presetRefWidth: "Based on width",
+    presetRefHeight: "Based on height",
+    presetCropPx: "Crop per side (px)",
+    presetOffsetPx: "Offset (px)",
+    presetCropWarning: "Image's {axis} is insufficient for {paper} ratio",
+    presetSwitchRef: "Switch reference edge",
+    presetCancelCrop: "Cancel preset crop",
   },
   error404: {
     backHome: "Volver al inicio",

@@ -8,9 +8,9 @@ const localeData: LocaleData = {
   previewHelp:
     "خط تقسیم را برای مقایسه اثر فشرده سازی بکشید: سمت چپ تصویر اصلی و سمت راست تصویر فشرده است",
   uploadCard: {
-    title:
-      "فایل‌ها را اینجا انتخاب کنید (پشتیبانی از روش کشیدن و انداختن فایل‌ها و پوشه‌ها)",
-    subTitle: "ابزار فشرده‌سازی هوشمند دسته‌ای تصاویر، پشتیبانی از فرمت‌های %s",
+    title: "تصاویر خود را اینجا بکشید یا انتخاب کنید",
+    subTitle: "فرمت‌های پشتیبانی شده: %s",
+    pasteHint: "💡 با Ctrl+V بچسبانید یا تصاویر را بکشید",
   },
   listAction: {
     batchAppend: "افزودن دسته‌ای",
@@ -68,6 +68,18 @@ const localeData: LocaleData = {
     outputFormatPlaceholder: "فرمت تصویر خروجی را انتخاب کنید",
     transparentFillDesc: "انتخاب رنگ شفاف",
     cropCompareWarning: "حالت برش از پیش‌نمایش مقایسه پشتیبانی نمی‌کند",
+    presetCrop: "Preset Crop (Paper)",
+    presetPaperSize: "Paper Size",
+    presetOrientation: "Orientation",
+    presetPortrait: "Portrait",
+    presetLandscape: "Landscape",
+    presetRefWidth: "Based on width",
+    presetRefHeight: "Based on height",
+    presetCropPx: "Crop per side (px)",
+    presetOffsetPx: "Offset (px)",
+    presetCropWarning: "Image's {axis} is insufficient for {paper} ratio",
+    presetSwitchRef: "Switch reference edge",
+    presetCancelCrop: "Cancel preset crop",
   },
   error404: {
     backHome: "بازگشت به خانه",
